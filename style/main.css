@@ -1,0 +1,114 @@
+.main-info__hello {
+    color: #B6B5BA;
+    margin: 20px 10px;
+}
+
+.type__text {
+    overflow: hidden;
+    border-right: .15em solid #6c65afde;
+    font-size: 1.2rem;
+    /* width: 100px; */
+    white-space: nowrap;
+    animation: typing 4s steps(20, end) forwards,
+        blink 0.5s step-end infinite alternate;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 110px
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+.nickname__main {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 20px 10px;
+}
+
+.main-info__img-laptop {
+    height: 310px;
+    width: 310px;
+    margin: 60px auto;
+}
+
+.img-laptop {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    /* background-image: url('../img/Ellipse\ 2.png');
+    background-repeat: no-repeat;
+    /* background-position: right bottom 45%;
+    background-size: 350px 300px; */
+    /* background-image: url('../img/Ellipse\ 2.png');
+    background-repeat: no-repeat;
+    background-position: right bottom -12px;
+    background-size: 320px 320px; */
+}
+
+.line-behind-laptop {
+    background: #6c65afde;
+    border: none;
+    z-index: -1;
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+    width: 90%;
+    height: 1px;
+}
+
+.eclipse {
+    height: 280px;
+    width: 300px;
+    position: relative;
+    bottom: 280px;
+    right: -20px;
+    z-index: -1;
+    background: linear-gradient(190deg, #e60ae6, #5e20af);
+    border-radius: 300px;
+    opacity: 0.5;
+    filter: blur(30px);
+}
+
+.main-info__order-button {
+    border: solid 3px;
+    border-color: rgba(93, 75, 173, 0.808);
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 15px 10px 10px;
+    display: inline-block;
+}
+
+@media screen and (min-width: 800px) {
+    .main-info-union {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-info__img-laptop {
+        margin: 0 120px 0 auto;
+        width: 420px;
+        height: 420px;
+        position: relative;
+        top: 110px;
+    }
+
+    .eclipse {
+        height: 350px;
+        width: 410px;
+        bottom: 380px;
+        left: 90px;
+    }
+};

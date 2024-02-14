@@ -1,0 +1,45 @@
+@import 'header.css';
+@import 'main.css';
+@import 'advantages.css';
+@import 'portfolio.css';
+@import 'contacts.css';
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+h1,
+h2,
+h3,
+p,
+li {
+    list-style-type: none;
+    text-decoration: none;
+    color: #FDFDFF;
+    font-weight: 400;
+}
+
+body {
+    background-color: #1F1F2B;
+    margin: 0;
+    padding: 0 8px;
+}
+
+@media (min-width:1280px){
+    body {
+        margin: 0 7%;
+    }
+};
+
+@media screen and (min-width:1800px) {
+    body {
+        margin: 0 10%;
+    }
+};

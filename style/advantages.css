@@ -1,0 +1,59 @@
+
+.advantages {
+    padding-top: 10vh;
+}
+
+.advantages-section-title {
+    margin: 10px auto;
+}
+
+.advantages__title {
+    display: inline-block;
+    font-size: 30px;
+
+}
+.advantages-list{
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.advantages-list-of-items {
+    width: 90%;
+    font-size: 18px;
+    display: grid;
+    justify-content: end;
+    gap: 1em;
+    padding-left: 40px;
+}
+
+.advantages-item {
+    font-size: 21px;
+}
+
+.advantages-item:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px){
+    .advantages-item {
+        background-image: url(../img/ckeck.jpg);
+        background-repeat: no-repeat;
+        background-position: left;
+        padding: 10px 10px 10px 86px;
+        background-size: 70px;
+    }
+}
+
+@media(min-width: 1600px) {
+    .advantages__title {
+        font-size: 35px;
+    }
+
+    .advantages-list-of-items {
+        width: 100%;
+    }
+
+    .advantages-item {
+        font-size: 23px;
+    }
+}

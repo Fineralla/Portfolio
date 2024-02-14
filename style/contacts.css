@@ -1,0 +1,37 @@
+.contacts {
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.contacts__title {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.contacts__enumeration {
+    margin-left: 40px;
+}
+
+.contacts__choose {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-name {
+    padding-right: 10px;
+}
+
+.contact {
+    font-size: 23px;
+}
+
+.contact-for-communication:hover{
+    color: rgb(159, 132, 209);
+}
+
+@media(min-width: 1600px) {
+    .contacts__title {
+        font-size: 35px;
+    }
+}
