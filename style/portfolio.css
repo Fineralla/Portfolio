@@ -1,4 +1,3 @@
-
 .portfolio {
     padding-top: 10vh;
 }
@@ -22,26 +21,86 @@
 }
 
 .portfolio__card {
-    width: 300px;
-    height: 200px;
-    /* margin-right: 40px; */
+    position: relative;
+    width: 350px;
+    height: 230px;
     margin-bottom: 40px;
+    border-radius: 30px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
 }
 
-.portfolio__card-img {
+.portfolio__card:last-child {
+    cursor: auto;
+}
+
+.card-guessTheNumber {
+    background-image: url('../img/guessTheNumber.png');
+}
+
+.card-donationDM {
+    background-image: url('../img/donationDM.jpg');
+}
+
+.card-pigGame {
+    background-image: url('../img/pigGame.png');
+}
+
+.card-loginForm {
+    background-image: url('../img/loginForm.png');
+}
+
+.portfolio__card-overlay {
+    box-sizing: border-box;
+    padding: 3%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    opacity: 0;
+    border-radius: 29px;
+    height: auto;
     width: 100%;
-    height: 100%;
-    border-radius: 15px;
+    background-color: rgba(0, 0, 0, .8);
 }
 
-@media (min-width: 1024px) {
+.portfolio__card-overlay_name-project {
+    font-size: 2.5vw;
+    margin-bottom: 5%;
+}
+
+.portfolio__card-overlay_description-project {
+    font-size: 1.5vw;
+}
+
+.portfolio__card:hover .portfolio__card-overlay {
+    opacity: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media (min-width: 1080px) {
     .portfolio__card {
-        width: 450px;
-        height: 300px;
+        width: 30vw;
+        height: 18vw;
+    }
+    .portfolio__card-overlay_name-project {
+        font-size: 2vw;
+    }
+    
+    .portfolio__card-overlay_description-project {
+        font-size: 1vw;
     }
 }
 
 @media(min-width: 1600px) {
+
     .portfolio-title {
         font-size: 35px;
     }

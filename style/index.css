@@ -20,6 +20,7 @@ h2,
 h3,
 p,
 li {
+    margin: 0;
     list-style-type: none;
     text-decoration: none;
     color: #FDFDFF;
@@ -30,9 +31,14 @@ body {
     background-color: #1F1F2B;
     margin: 0;
     padding: 0 8px;
+    max-width: 2000px;
 }
 
-@media (min-width:1280px){
+.section-title {
+    margin-bottom: 5%;
+}
+
+@media (min-width:1380px){
     body {
         margin: 0 7%;
     }

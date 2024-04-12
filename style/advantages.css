@@ -14,7 +14,6 @@
 }
 .advantages-list{
     margin-top: 30px;
-    /* margin-bottom: 30px; */
 }
 
 .advantages-list-of-items {
@@ -28,6 +27,7 @@
 
 .advantages-item {
     font-size: 21px;
+    margin-bottom: 5%;
 }
 
 .advantages-item:last-child {

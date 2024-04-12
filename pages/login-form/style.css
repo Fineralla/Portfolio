@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body, .wrapper{
+    height: 100%;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url("img/blurry-gradient-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Ubuntu";
+    color: black;
+    animation: rotate 6s infinite alternate linear;
+}
+
+.login-card{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    margin: 0 20px;
+    padding: 70px 30px 44px;
+    border-radius: 1.25rem;
+    background: white;
+    text-align: center;
+}
+
+.login-card > h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 0 30px;
+}
+
+.login-form{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+}
+
+.login-form > input, .login-form > button{
+    /* width: 100%; */
+    height: 50px;
+}
+
+.login-form > input{
+    box-sizing: border-box;
+    border: 2.25px solid #9a81bb;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    transition: all 0.375s;
+}
+
+.login-form > input:hover{ 
+    border: 2.5px solid blue;
+}
+
+/* .login-form > input:active{ 
+    border: 2px solid blue;
+} */
+
+.login-form > button{
+    cursor: pointer;
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    background: rgb(106, 106, 236);
+    color: white;
+    border: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+}
+
+.login-form > button:hover{
+    background: rgb(76, 76, 217);
+}
+
+.forget{
+    color: rgb(38, 38, 164);
+    font-size: 1rem;
+    text-align: left;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    transition: all 0.375s;
+}
+
+.forget:hover{
+    color: blue;
+}
+
+.login-form > p{
+    color: rgb(38, 38, 164);
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.loginsocial > a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+@keyframes rotate{
+    100%{
+        background-position: 15% 50%;
+    }
+}
+
+@media (width >= 700px){
+    body{
+        padding: 0;
+    }
+    .login-card{
+        margin: 0;
+        width: 700px;
+    }
+}

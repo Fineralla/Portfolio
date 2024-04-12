@@ -20,8 +20,7 @@
                 <span class="trait__line">|</span>
             </div>
             <div class="header__main">
-                <a href="#" onclick="parent.location.reload(); return false;" class="header__nickname">artistclay</a>
-                <!-- <h1 class="header__nickname">artistclay</h1> -->
+                <a href="#" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });" class="header__nickname">artistclay</a>
                 <h1 class="header__developer">Frontend Developer</h1>
             </div>
         </div>
@@ -50,7 +49,6 @@
                 <div class="main-info__img-laptop">
                     <img class="img-laptop" src="img/laptop.png" alt="Изображение ноутбука">
                     <div class="eclipse"></div>
-                    <!-- <img class="eclipse" src="img/Ellipse 2.png" alt="Изображение эклипса"> -->
                 </div>
                 <div class="container-line">
                     <hr class="line-behind-laptop">
@@ -60,7 +58,7 @@
         </secttion>
 
         <section class="advantages" id="advantages">
-            <div class="advantages-section-title">
+            <div class="advantages-section-title section-title">
                 <div class="trait">
                     <span class="trait__line">|</span>
                 </div>
@@ -70,30 +68,49 @@
                 <div class="advantages-list-of-items">
                     <p class="advantages-item">Стек технологий: <em>HTML, CSS, JavaScript, Tilda, React</em> </p>
                     <p class="advantages-item">Работа по вашим mockup на Photoshop или Figma</p>
-                    <p class="advantages-item">Адаптация сайта под все устройства и браузеры</p>
+                    <p class="advantages-item">Адаптация сайта под все устройства</p>
                     <p class="advantages-item">Чистый валидный код</p>
-                    <p class="advantages-item">Разработка самого сложного функционала</p>
                 </div>
             </article>
         </section>
         <section class="portfolio" id="portfolio">
-            <div class="portfolio-section-title">
+            <div class="portfolio-section-title section-title">
                 <div class="trait">
                     <span class="trait__line">|</span>
                 </div>
                 <h2 class="portfolio-title">Портфолио</h2>
             </div>
             <div class="portfolio__container-card">
-                <div class="portfolio__card">
-                    <img class="portfolio__card-img minimized" src="img/donationDM.jpg" alt="">
+                <div class="portfolio__card card-guessTheNumber" onclick="window.open('pages/guess-the-number/index.html', '_blank')">
+                    <div class="portfolio__card-overlay">
+                        <p class="portfolio__card-overlay_name-project">Игра: Угадай число</p>
+                        <p class="portfolio__card-overlay_description-project">Если нажмёте на картинку - сможете поиграть</p>
+                    </div>
                 </div>
-                <div class="portfolio__card">
-                    <img class="portfolio__card-img minimized" src="img/ApplicationFrameHost_2QyK7nMarE.png" alt="">
+                <div class="portfolio__card card-pigGame" onclick="window.open('pages/pig-game/index.html', '_blank')">
+                    <div class="portfolio__card-overlay">
+                        <p class="portfolio__card-overlay_name-project">Игра: Свинья</p>
+                        <p class="portfolio__card-overlay_description-project">Если нажмёте на картинку - сможете поиграть</p>
+                    </div>
+                </div>
+                <div class="portfolio__card card-loginForm" onclick="window.open('pages/login-form/index.html', '_blank')">
+                    <div class="portfolio__card-overlay">
+                        <p class="portfolio__card-overlay_name-project">Login Form</p>
+                        <p class="portfolio__card-overlay_description-project">Небольшая вёрстка формы входа</p>
+                    </div>
+                </div>
+                <div class="portfolio__card card-donationDM">
+                    <div class="portfolio__card-overlay">
+                        <p class="portfolio__card-overlay_name-project">Donation DM</p>
+                        <p class="portfolio__card-overlay_description-project">Вёрстка для хакатона</p>
+                        <p class="portfolio__card-overlay_description-project">(скоро будет на сайте)</p>
+                    </div>
                 </div>
             </div>
+
         </section>
         <section class="contacts" id="contacts">
-            <div class="contacts-section-title">
+            <div class="contacts-section-title section-title ">
                 <div class="trait">
                     <span class="trait__line">|</span>
                 </div>
@@ -113,7 +130,7 @@
                 <div class="contacts__choose">
                     <p class="contact-name contact">E-Mail:</p>
                     <a class="contact-for-communication contact" target="_blank"
-                        href="mailto:artistclay39@gmail.com">artistclay39@gmail.com</a>
+                        href="mailto:artistclay39@gmail.com">Fineralla@yandex.ru</a>
                 </div>
             </div>
         </section>

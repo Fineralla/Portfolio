@@ -7,11 +7,13 @@
     overflow: hidden;
     border-right: .15em solid #6c65afde;
     font-size: 1.2rem;
-    /* width: 100px; */
     white-space: nowrap;
-    animation: typing 4s steps(20, end) forwards,
-        blink 0.5s step-end infinite alternate;
-
+    animation: 
+        typing 4s steps(18, end) forwards, 
+        blink 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition-delay: 3.5s;
 }
 
 @keyframes typing {
@@ -46,14 +48,6 @@
     height: 100%;
     width: 100%;
     z-index: 1;
-    /* background-image: url('../img/Ellipse\ 2.png');
-    background-repeat: no-repeat;
-    /* background-position: right bottom 45%;
-    background-size: 350px 300px; */
-    /* background-image: url('../img/Ellipse\ 2.png');
-    background-repeat: no-repeat;
-    background-position: right bottom -12px;
-    background-size: 320px 320px; */
 }
 
 .line-behind-laptop {
@@ -91,7 +85,7 @@
     display: inline-block;
 }
 
-@media screen and (min-width: 800px) {
+@media(min-width: 800px) {
     .main-info-union {
         display: flex;
         align-items: center;
@@ -99,8 +93,8 @@
 
     .main-info__img-laptop {
         margin: 0 120px 0 auto;
-        width: 420px;
-        height: 420px;
+        width: 450px; 
+        height: 450px;
         position: relative;
         top: 110px;
     }
@@ -112,3 +106,6 @@
         left: 90px;
     }
 };
+
+
+
