@@ -1,5 +1,6 @@
 # Portfolio-site by Fineralla(@rtisctClay) ⟳
-![image](https://github.com/Fineralla/Portfolio/assets/50765675/db109bc2-f3e0-442f-9c0b-bebee353a01b)
+![image](https://github.com/Fineralla/Portfolio/assets/50765675/89bd7b1e-6abe-46a2-9f03-f3d58a77527c)
+
 
 
 ***Finished works:***
@@ -8,6 +9,7 @@
 - [x] Animation Login&Registration page
 
 ***On process:***
+- [ ] English version of the website
 - [ ] Game: Tic Tac Toe (vanilla js)
 - [ ] ToDo List (React)
 - [ ] The Four Horses Club (Pixel Perfect layout - 80% Done)
