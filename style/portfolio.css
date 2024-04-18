@@ -26,7 +26,7 @@
     height: 230px;
     margin-bottom: 40px;
     border-radius: 30px;
-    
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -51,6 +51,10 @@
 
 .card-loginForm {
     background-image: url('../img/loginForm.png');
+}
+
+.card-horsesClub {
+    background-image: url('../img/horsesClub.png');
 }
 
 .portfolio__card-overlay {
@@ -90,10 +94,11 @@
         width: 30vw;
         height: 18vw;
     }
+
     .portfolio__card-overlay_name-project {
         font-size: 2vw;
     }
-    
+
     .portfolio__card-overlay_description-project {
         font-size: 1vw;
     }
