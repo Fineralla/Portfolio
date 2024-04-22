@@ -1,0 +1,26 @@
+.footer {
+  border-top: 1px solid #B6B5BA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.footer__left-paragraph {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.footer__developer {
+  color: #B6B5BA;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+}

@@ -3,6 +3,7 @@
 @import 'advantages.css';
 @import 'portfolio.css';
 @import 'contacts.css';
+@import 'footer.css';
 
 html {
     font-family: 'Ubuntu', sans-serif;
@@ -38,14 +39,18 @@ body {
     margin-bottom: 5%;
 }
 
-@media (min-width:1380px){
+@media (min-width:1380px) {
     body {
         margin: 0 7%;
     }
-};
+}
+
+;
 
 @media screen and (min-width:1800px) {
     body {
         margin: 0 10%;
     }
-};
+}
+
+;
