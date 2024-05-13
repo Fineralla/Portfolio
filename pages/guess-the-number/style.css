@@ -114,3 +114,21 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 500px) {
+  main {
+    flex-direction: column;
+    justify-content: normal;
+  }
+
+  .left {
+    width: 100%;
+    margin: 100px auto 0;
+  }
+
+  .right {
+    text-align: center;
+    width: 100%;
+    margin: 80px auto 0;
+  }
+}

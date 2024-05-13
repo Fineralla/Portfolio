@@ -57,6 +57,10 @@
     background-image: url('../img/horsesClub.png');
 }
 
+.card-site_calc {
+    background-image: url('../img/site-calc.png');
+}
+
 .portfolio__card-overlay {
     box-sizing: border-box;
     padding: 3%;
